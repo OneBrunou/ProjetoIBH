@@ -31,6 +31,12 @@ namespace ProjetoIBH.Controllers
         }
 
 
+
+
+
+
+
+
         public async Task<IActionResult> Sair()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
